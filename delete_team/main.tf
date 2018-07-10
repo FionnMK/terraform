@@ -1,1 +1,1 @@
-terraform destroy module."$(var.workspace)"
+destroy module."$(var.workspace)"
