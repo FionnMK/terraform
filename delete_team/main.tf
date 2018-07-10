@@ -1,1 +1,1 @@
-terraform destroy -target resource_group_common."$(var.workspace)"
+terraform destroy -target=module."$(var.workspace)"
